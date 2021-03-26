@@ -41,7 +41,7 @@ nav .nav-links ul li {
 }
 
 nav .nav-links ul li img {
-  transform: scale(0.45);
+  transform: scale(0.8);
 }
 
 section {
@@ -70,10 +70,20 @@ section {
   font-family: "AlphaCentauri" !important;
   font-size: 5vw;
   color: #fff;
-  letter-spacing: 20px;
+  letter-spacing: 24px;
   position: absolute;
-  top: 35vh;
-  left: 34vw;
+  top: 37vh;
+  left: 38vw;
+}
+
+.text h2 {
+  font-family: "AlphaCentauri" !important;
+  font-size: 2vw;
+  color: #fff;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 55vh;
+  left: 28vw;
 }
 
 .earth img {

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#cfcc51">
+    <meta name="apple-mobile-web-app-title" content="SPAM">
+    <meta name="application-name" content="SPAM">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="f_style.css" />
+    <title>SPAM신청하기</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbzr2A1V7HvtPMFVbYeH1gUcNI7ANwyB4rDMH1aHqA/exec" action="index.html" autocomplete="off"
+      onsubmit="return check();"
+      >
+        <p>SPAM 신청서</p>
+        <input type="text" id="num" name="학번" placeholder="ex)10612" required="required"><br>
+        <input type="text" id="name" name="이름" placeholder="ex)홍길동" required="required"><br>
+        <input type="text" id="phone" name="전화번호" placeholder="010-xxxx-xxxx" required="required"><br>
+        <textarea id="a" name="동기" rows="8" cols="50" required="required" placeholder="다짐"></textarea><br>
+        <textarea id="b" name="다짐" rows="8" cols="50" required="required" placeholder="지원동기"></textarea><br>
+        <button class="apply">신청하기</button><br>
+        <a href="index.html" onclick="alert('신청서 작성이 취소되었습니다!');location.href=index.html">신청 취소하기</a><br>
+        <p class="msg">*신청이 완료되어도 아무런 변화가 없을 수 있습니다.*</p>
+      </form>
+      <div class="drops">
+          <div class="drop drop-1"></div>
+          <div class="drop drop-2"></div>
+          <div class="drop drop-3"></div>
+          <div class="drop drop-4"></div>
+          <div class="drop drop-5"></div>
+      </div>
+    </div>
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  </body>
+</html>

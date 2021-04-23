@@ -15,16 +15,17 @@
     <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="f_style.css" />
+    <link rel="stylesheet" href="form.js">
     <title>SPAM신청하기</title>
   </head>
   <body>
     <div class="container">
-      <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbzr2A1V7HvtPMFVbYeH1gUcNI7ANwyB4rDMH1aHqA/exec" action="index.html" autocomplete="off"
+      <form class="gform" name="form" method="post" action="https://script.google.com/macros/s/AKfycbzr2A1V7HvtPMFVbYeH1gUcNI7ANwyB4rDMH1aHqA/exec" action="index.html" autocomplete="off"
       onsubmit="return check();"
       >
         <p>SPAM 신청서</p>
-        <input type="text" id="num" name="학번" placeholder="ex)10612" required="required"><br>
-        <input type="text" id="name" name="이름" placeholder="ex)홍길동" required="required"><br>
+        <input type="text" class="학번" id="num" name="학번" placeholder="ex)10612" required="required"><br>
+        <input type="text" class="이름" id="name" name="이름" placeholder="ex)홍길동" required="required"><br>
         <input type="text" id="phone" name="전화번호" placeholder="010-xxxx-xxxx" required="required"><br>
         <textarea id="a" name="동기" rows="5" cols="32" required="required" placeholder="다짐"></textarea><br>
         <textarea id="b" name="다짐" rows="5" cols="32" required="required" placeholder="지원동기"></textarea><br>

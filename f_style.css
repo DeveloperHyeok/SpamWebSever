@@ -228,7 +228,7 @@ form textarea
     list-style: none;
     background: #000;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, rgb(25, 55, 68), rgb(95, 41, 37));
+    background: linear-gradient(to right, rgb(25, 55, 68), #5a1f1a);
   }
   .container
   {

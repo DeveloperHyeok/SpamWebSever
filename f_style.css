@@ -228,7 +228,7 @@ form textarea
     list-style: none;
     background: #000;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, #3f5efb, #fc466b);
+    background: linear-gradient(to right, rgb(25, 55, 68), rgb(95, 41, 37));
   }
   .container
   {
@@ -365,46 +365,6 @@ form textarea
       transition: all 0.2s ease;
 
   }
-  /*
-  .drop-1
-  {
-      height: 60px;
-      width: 60px;
-      top: -20px;
-      left: -40px;
-      z-index: -1;
-  }
-  .drop-2
-  {
-      height: 60px;
-      width: 60px;
-      bottom: -30px;
-      right: -10px;
-  }
-  .drop-3
-  {
-      height: 80px;
-      width: 80px;
-      bottom: 120px;
-      right: -50px;
-      z-index: -1;
-  }
-
-  .drop-4
-  {
-      height: 100px;
-      width: 100px;
-      top: -60px;
-      right: -60px;
-  }
-  .drop-5
-  {
-      height: 40px;
-      width: 40px;
-      bottom: 170px;
-      left: 90px;
-      z-index: -1;
-  }*/
   .drops
   {
       display: none;

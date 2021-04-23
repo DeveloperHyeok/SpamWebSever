@@ -365,6 +365,7 @@ form textarea
       transition: all 0.2s ease;
 
   }
+  /*
   .drop-1
   {
       height: 60px;
@@ -403,6 +404,10 @@ form textarea
       bottom: 170px;
       left: 90px;
       z-index: -1;
+  }*/
+  .drops
+  {
+      display: none;
   }
   .msg
   {
